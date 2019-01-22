@@ -1,0 +1,203 @@
+.landing {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("https://s3.us-east-2.amazonaws.com/mirrored-memories-qc/homebnwdarker.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    .landing-logo {
+        .logo {
+            height: 250px;
+            width: auto;
+        }
+    }
+    .landing-links {
+        height: 450px;
+        width: 400px;
+        font-family: 'Gothic A1', sans-serif;
+        letter-spacing: .3em;
+        font-weight: bold;
+        font-size: 11px;
+        .holder {
+            position: relative;
+            color: white;
+            &:hover {
+                color: black;
+            }
+            &.about {
+                left: 160px;
+                .up {
+                    height: 80px;
+                    width: 80px;
+                    border: rgb(226, 225, 143) solid 2px;
+                    transform: translateY(-10px) rotate(45deg);
+                }
+                .down {
+                    position: absolute;
+                    height: 80px;
+                    width: 80px;
+                    border: rgb(226, 225, 143) solid 2px;
+                    transform: rotate(45deg);
+                    z-index: 1;
+                    transition: all .5s ease;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .title {
+                        align-self: center;
+                        justify-self: center;
+                        transform: rotate(-45deg);
+
+                    }
+                    &:hover {
+                        transform: translateY(-10px) rotate(45deg);
+                        background-color: rgb(226, 225, 143);
+                        transition: all .5s ease;
+                    }
+                }
+            }
+            &.gallery {
+                left: 220px;
+                bottom: 5px;
+                width: 80px;
+                .up {
+                    height: 80px;
+                    width: 80px;
+                    border: rgb(226, 225, 143) solid 2px;
+                    transform: translateY(-10px) rotate(45deg);
+                }
+                .down {
+                    position: absolute;
+                    height: 80px;
+                    width: 80px;
+                    border: rgb(226, 225, 143) solid 2px;
+                    transform: rotate(45deg);
+                    z-index: 1;
+                    transition: all .5s ease;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .title {
+                        align-self: center;
+                        justify-self: center;
+                        transform: rotate(-45deg);
+
+                    }
+                    &:hover {
+                        transform: translateY(-10px) rotate(45deg);
+                        background-color: rgb(226, 225, 143);
+                        transition: all .5s ease;
+                    }
+                }
+            }
+            &.quote {
+                left: 125px;
+                top: 5px;
+                width: 80px;
+                .up {
+                    height: 150px;
+                    width: 150px;
+                    border: rgb(226, 225, 143) solid 2px;
+                    transform: translateY(-10px) rotate(45deg);
+                }
+                .down {
+                    position: absolute;
+                    height: 150px;
+                    width: 150px;
+                    border: rgb(226, 225, 143) solid 2px;
+                    transform: rotate(45deg);
+                    z-index: 1;
+                    transition: all .5s ease;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .title {
+                        align-self: center;
+                        justify-self: center;
+                        transform: rotate(-45deg);
+
+                    }
+                    &:hover {
+                        transform: translateY(-10px) rotate(45deg);
+                        background-color: rgb(226, 225, 143);
+                        transition: all .5s ease;
+                    }
+                }
+            }
+            &.packages {
+                left: 270px;
+                bottom: 35px;
+                width: 100px;
+                .up {
+                    height: 80px;
+                    width: 80px;
+                    border: rgb(226, 225, 143) solid 2px;
+                    transform: translateY(-10px) rotate(45deg);
+                }
+                .down {
+                    position: absolute;
+                    height: 80px;
+                    width: 80px;
+                    border: rgb(226, 225, 143) solid 2px;
+                    transform: rotate(45deg);
+                    z-index: 1;
+                    transition: all .5s ease;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .title {
+                        align-self: center;
+                        justify-self: center;
+                        transform: rotate(-45deg);
+
+                    }
+                    &:hover {
+                        transform: translateY(-10px) rotate(45deg);
+                        background-color: rgb(226, 225, 143);
+                        transition: all .5s ease;
+                    }
+                }
+            }
+            &.contact {
+                left: 55px;
+                bottom: 95px;
+                width: 90px;
+                .up {
+                    height: 100px;
+                    width: 100px;
+                    border: rgb(226, 225, 143) solid 2px;
+                    transform: translateY(-10px) rotate(45deg);
+                }
+                .down {
+                    position: absolute;
+                    height: 100px;
+                    width: 100px;
+                    border: rgb(226, 225, 143) solid 2px;
+                    transform: rotate(45deg);
+                    z-index: 1;
+                    transition: all .5s ease;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .title {
+                        align-self: center;
+                        justify-self: center;
+                        transform: rotate(-45deg);
+
+                    }
+                    &:hover {
+                        transform: translateY(-10px) rotate(45deg);
+                        background-color: rgb(226, 225, 143);
+                        transition: all .5s ease;
+                    }
+                }
+            }
+        }
+    }
+}
