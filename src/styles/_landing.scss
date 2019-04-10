@@ -42,14 +42,14 @@
                 .up {
                     height: 80px;
                     width: 80px;
-                    border: rgb(226, 225, 143) solid 2px;
+                    border: $yellow solid 2px;
                     transform: translateY(-10px) rotate(45deg);
                 }
                 .down {
                     position: absolute;
                     height: 80px;
                     width: 80px;
-                    border: rgb(226, 225, 143) solid 2px;
+                    border: $yellow solid 2px;
                     transform: rotate(45deg);
                     z-index: 1;
                     transition: all .5s ease;
@@ -64,7 +64,7 @@
                     }
                     &:hover {
                         transform: translateY(-10px) rotate(45deg);
-                        background-color: rgb(226, 225, 143);
+                        background-color: $yellow;
                         transition: all .5s ease;
                     }
                 }
@@ -76,14 +76,14 @@
                 .up {
                     height: 80px;
                     width: 80px;
-                    border: rgb(226, 225, 143) solid 2px;
+                    border: $yellow solid 2px;
                     transform: translateY(-10px) rotate(45deg);
                 }
                 .down {
                     position: absolute;
                     height: 80px;
                     width: 80px;
-                    border: rgb(226, 225, 143) solid 2px;
+                    border: $yellow solid 2px;
                     transform: rotate(45deg);
                     z-index: 1;
                     transition: all .5s ease;
@@ -98,7 +98,7 @@
                     }
                     &:hover {
                         transform: translateY(-10px) rotate(45deg);
-                        background-color: rgb(226, 225, 143);
+                        background-color: $yellow;
                         transition: all .5s ease;
                     }
                 }
@@ -110,14 +110,14 @@
                 .up {
                     height: 150px;
                     width: 150px;
-                    border: rgb(226, 225, 143) solid 2px;
+                    border: $yellow solid 2px;
                     transform: translateY(-10px) rotate(45deg);
                 }
                 .down {
                     position: absolute;
                     height: 150px;
                     width: 150px;
-                    border: rgb(226, 225, 143) solid 2px;
+                    border: $yellow solid 2px;
                     transform: rotate(45deg);
                     z-index: 1;
                     transition: all .5s ease;
@@ -132,7 +132,7 @@
                     }
                     &:hover {
                         transform: translateY(-10px) rotate(45deg);
-                        background-color: rgb(226, 225, 143);
+                        background-color: $yellow;
                         transition: all .5s ease;
                     }
                 }
@@ -144,14 +144,14 @@
                 .up {
                     height: 80px;
                     width: 80px;
-                    border: rgb(226, 225, 143) solid 2px;
+                    border: $yellow solid 2px;
                     transform: translateY(-10px) rotate(45deg);
                 }
                 .down {
                     position: absolute;
                     height: 80px;
                     width: 80px;
-                    border: rgb(226, 225, 143) solid 2px;
+                    border: $yellow solid 2px;
                     transform: rotate(45deg);
                     z-index: 1;
                     transition: all .5s ease;
@@ -166,7 +166,7 @@
                     }
                     &:hover {
                         transform: translateY(-10px) rotate(45deg);
-                        background-color: rgb(226, 225, 143);
+                        background-color: $yellow;
                         transition: all .5s ease;
                     }
                 }
@@ -178,14 +178,14 @@
                 .up {
                     height: 100px;
                     width: 100px;
-                    border: rgb(226, 225, 143) solid 2px;
+                    border: $yellow solid 2px;
                     transform: translateY(-10px) rotate(45deg);
                 }
                 .down {
                     position: absolute;
                     height: 100px;
                     width: 100px;
-                    border: rgb(226, 225, 143) solid 2px;
+                    border: $yellow solid 2px;
                     transform: rotate(45deg);
                     z-index: 1;
                     transition: all .5s ease;
@@ -200,7 +200,7 @@
                     }
                     &:hover {
                         transform: translateY(-10px) rotate(45deg);
-                        background-color: rgb(226, 225, 143);
+                        background-color: $yellow;
                         transition: all .5s ease;
                     }
                 }

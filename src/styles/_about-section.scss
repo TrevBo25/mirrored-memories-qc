@@ -1,0 +1,36 @@
+.section-flip {
+    height: 400px;
+    width: 65%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .image-container-outer {
+        height: 200px;
+        width: 200px;
+        border: 2px $yellow solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: rotate(45deg);
+        .image-container-inner {
+            height: 175px;
+            width: 175px;
+            border: 2px $yellow solid;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .image-holder {
+                height: 160px;
+                width: 160px;
+                border: 1px black solid;
+                .image {
+
+                }
+            }
+        }
+    }
+    .text-container {
+        width: 50%;
+    }
+}
