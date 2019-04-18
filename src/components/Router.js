@@ -8,10 +8,10 @@ import Quote from './Quote';
 import Packages from './Packages';
 import Gallery from './Gallery';
 
-const Router = () => (
+const Router = ({update}) => (
     <div>
         <Switch>
-            <Route exact path='/' component={Landing} />
+            <Route exact path='/' render={() => <Landing update={update} /> }/>
             <Route path='/about' component={About} />
             <Route path='/contact' component={Contact} />
             <Route path='/quote' component={Quote} />

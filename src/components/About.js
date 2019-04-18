@@ -21,10 +21,10 @@ text = {
 },
 
 images = {
-  one: '',
-  two: '', 
-  three: '',
-  four: ''
+  one: 'https://s3.us-east-2.amazonaws.com/mirroredmemories/Diamond+Photo+1.jpg',
+  two: 'https://s3.us-east-2.amazonaws.com/mirroredmemories/Diamond+Photo+2.jpg', 
+  three: 'https://s3.us-east-2.amazonaws.com/mirroredmemories/Diamond+Photo+3.jpg',
+  four: 'https://s3.us-east-2.amazonaws.com/mirroredmemories/Diamond+Photo+4.jpg'
 }
 
 export default About;

@@ -7,17 +7,21 @@ export default class App extends Component {
   constructor() {
     super()
     this.state = {
-      color: 'white',
-      type: 'landing'
+      color: 'black',
     }
+    this.updateNavAndFooter = this.updateNavAndFooter.bind(this);
+  }
+
+  updateNavAndFooter(color = 'black') {
+    this.setState({color: color})
   }
 
   render() {
     return (
       <div className='app'>
-        <Nav color={this.state.color} type={this.state.type} />
-        <Router />
-        <Footer color={this.state.color} type={this.state.type} />
+        <Nav color={this.state.color} update={this.updateNavAndFooter}/>
+        <Router update={this.updateNavAndFooter} />
+        <Footer color={this.state.color} />
       </div>
     )
   }
