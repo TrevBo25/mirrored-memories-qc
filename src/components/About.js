@@ -6,6 +6,16 @@ const About = () => (
   <div className="about-comp">
     <h1 className="about-title">about.</h1>
     <div className="about-subtitle">The first of its kind in the Quad Cities. The Mirrored Memories Photo Booth is a full-length touch screen interactive mirror experience featuring custom animations & state of the art technologies. With fun props & unlimited custom photo prints for your guests to take home. This photo booth will take any event to the next level.</div>
+    <div className="about-yt">
+      <iframe id="ytplayer" 
+              type="text/html" 
+              width="100%"
+              height="100%"
+              allowFullScreen
+              src="https://www.youtube.com/embed/F5e07skRKgQ?autoplay=0"
+              frameborder="0">
+      </iframe>
+    </div>
     <AboutSection flip={true} image={images.one} text={text.one} />
     <AboutSection flip={false} image={images.two} text={text.two} />
     <AboutSection flip={true} image={images.three} text={text.three} />
