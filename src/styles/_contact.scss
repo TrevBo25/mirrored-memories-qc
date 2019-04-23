@@ -1,0 +1,86 @@
+.contact-comp {
+    padding-top: 70px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .contact-title {
+        font-family: $cursive;
+        font-size: 110px;
+    }
+    .contact-holders {
+        height: 100%;
+        width: 70%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .contact-left {
+            flex: 1;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            .inputs {
+                width: 90%;
+                border-width: 0px 2px 2px 0px;
+                border-color: black;
+                margin: 18px 0px 0px 10px;
+                color: black;
+                font-family: $goth;
+                font-size: 18px;
+            }
+            .textarea {
+                width: 89%;
+                border-width: 0px 2px 2px 0px;
+                border-color: black;
+                margin: 18px 0px 0px 10px;
+                color: black;
+                font-family: $goth;
+                font-size: 18px;
+            }
+            .quote-form-submit {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 2px solid black;
+                border-radius: 10px;
+                padding: 0px 15px 0px 15px;
+                height: 40px;
+                transition: all .3s ease;
+                .button-text {
+                    font-family: $goth;
+                    font-size: 20px;
+                }
+                &:hover {
+                    background-color: black;
+                    color: white;
+                    cursor: pointer;
+                    transition: all .3s ease;
+                }
+                &.nope {
+                    border-color: red;
+                    color: red;
+                    &:hover {
+                        background-color: red;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .contact-right {
+            flex: 1;
+            height: 100%;
+            width: 100%;
+            .contact-img {
+                height: 60vh;
+                widtH: auto;
+            }
+        }
+    }
+}

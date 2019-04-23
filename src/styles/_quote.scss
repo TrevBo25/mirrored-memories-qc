@@ -1,0 +1,97 @@
+.quote-comp {
+    padding-top: 90px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .quote-title {
+        font-family: $cursive;
+        font-size: 110px;
+    }
+    .quote-form-outter {
+        margin-top: 30px;
+        max-width: 900px;
+        min-width: 60%;
+        min-height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .quote-form-inner {
+            margin-top: 30px;
+            flex: 5;
+            width: 90%;
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+            .inputs {
+                width: 90%;
+                border-width: 0px 2px 2px 0px;
+                border-color: black;
+                margin: 18px 0px 0px 10px;
+                color: black;
+                font-family: $goth;
+                font-size: 18px;
+            }
+            .textarea {
+                font-size: 14px;
+                width: 88%;
+                margin-top: 22px;
+            }
+            .selects {
+                margin-top: 22px;
+                background-color: white;
+            }
+            .left-inputs {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+            .right-inputs {
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+        }
+        .quote-form-submit {
+            flex: 4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 0px 15px 0px 15px;
+            height: 10px;
+            transition: all .3s ease;
+            .button-text {
+                font-family: $goth;
+                font-size: 20px;
+            }
+            &:hover {
+                background-color: black;
+                color: white;
+                cursor: pointer;
+                transition: all .3s ease;
+            }
+            &.nope {
+                border-color: red;
+                color: red;
+                &:hover {
+                    background-color: red;
+                    color: white;
+                }
+            }
+        }
+        .nope-text {
+        
+            font-family: $goth;
+        }
+    }
+}

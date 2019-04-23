@@ -6,7 +6,7 @@ import About from './About';
 import Contact from './Contact';
 import Quote from './Quote';
 import Packages from './Packages';
-import Gallery from './Gallery';
+import GalleryComponent from './GalleryComponent';
 
 const Router = ({update}) => (
     <div>
@@ -16,7 +16,7 @@ const Router = ({update}) => (
             <Route path='/contact' component={Contact} />
             <Route path='/quote' component={Quote} />
             <Route path='/packages' component={Packages} />
-            <Route path='/gallery' component={Gallery} />
+            <Route path='/gallery' component={GalleryComponent} />
         </Switch>
     </div>
 )
