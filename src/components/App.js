@@ -21,7 +21,7 @@ export default class App extends Component {
       <div className='app'>
         <Nav color={this.state.color} update={this.updateNavAndFooter}/>
         <Router update={this.updateNavAndFooter} />
-        <Footer color={this.state.color} />
+        <Footer color={this.state.color} update={this.updateNavAndFooter}/>
       </div>
     )
   }

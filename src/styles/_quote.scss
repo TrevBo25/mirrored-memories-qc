@@ -36,6 +36,27 @@
                 font-family: $goth;
                 font-size: 18px;
             }
+            .date-picker {
+                width: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-right: 10px;
+                .inputs {
+                    width: 85%;
+                    border-width: 0px 2px 2px 0px;
+                    border-color: black;
+                    margin: 18px 0 0 10px;
+                    color: black;
+                    font-family: $goth;
+                    font-size: 18px;
+                }
+                .date-label {
+                    font-family: $goth;
+                    white-space: nowrap;
+                    transform: translateY(8px)
+                }
+            }
             .textarea {
                 font-size: 14px;
                 width: 88%;
@@ -90,7 +111,6 @@
             }
         }
         .nope-text {
-        
             font-family: $goth;
         }
     }

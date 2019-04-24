@@ -1,26 +1,21 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
-const Footer = ({color}) => color === 'white' ? (
+const Footer = ({color, update}) => color === 'white' ? (
   <div className={`footer-white`}>
     <div className='footer-media'>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-yelp"></i>
-        <i class="fab fa-pinterest-p"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-facebook-f"></i>
-        <i class="far fa-envelope"></i>
+      <a href="https://www.instagram.com/mirroredmemoriesphotoboothqc/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/mirroredmemoriesqc" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+      <Link to='/contact' onClick={() => update('black')}><i class="far fa-envelope"></i></Link>
     </div>
   </div>
 ) : (
   <div className={`footer-black`}>
     <h1 className='nav-header'>mirrored memories.</h1>
     <div className='footer-media'>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-yelp"></i>
-        <i class="fab fa-pinterest-p"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-facebook-f"></i>
-        <i class="far fa-envelope"></i>
+      <a href="https://www.instagram.com/mirroredmemoriesphotoboothqc/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/mirroredmemoriesqc" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+      <Link to='/contact' onClick={() => update('black')}><i class="far fa-envelope"></i></Link>
     </div>
   </div>
 )

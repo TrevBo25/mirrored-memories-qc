@@ -59,7 +59,7 @@ export default class Quote extends Component {
               <input className="inputs" type="text" name="name" placeholder="Name" value={this.state.name} onChange={(e) => {this.setState({name: e.target.value})}}/>
               <input className="inputs" type="text" name="email" placeholder="Email" value={this.state.email} onChange={(e) => {this.setState({email: e.target.value})}}/>
               <input className="inputs" type="text" name="phone" placeholder="Phone" value={this.state.phone} onChange={(e) => {this.setState({phone: e.target.value})}}/>
-              <DatePicker className="inputs" selected={this.state.date} onChange={(date) => this.setState({date})} />
+              <span className="date-picker"><DatePicker className="inputs" selected={this.state.date} onChange={(date) => this.setState({date})} /><span className="date-label">Event Date</span></span>
               <input className="inputs" type="text" name="location"  placeholder="Location" value={this.state.location} onChange={(e) => {this.setState({location: e.target.value})}}/>
             </div>
             <div className="right-inputs">
