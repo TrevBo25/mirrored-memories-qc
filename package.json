@@ -9,6 +9,7 @@
   "private": true,
   "dependencies": {
     "emailjs-com": "^2.3.2",
+    "express": "^4.16.4",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
     "react-datepicker": "^2.4.0",
