@@ -4,7 +4,7 @@ import AboutSection from './AboutSection'
 
 const About = () => (
   <div className="about-comp">
-    <h1 className="about-title">About Us.</h1>
+    <h1 className="about-title">about us.</h1>
     <div className="about-subtitle">The first of its kind in the Quad Cities. The Mirrored Memories Photo Booth is a full-length touch screen interactive mirror experience featuring custom animations & state of the art technologies. With fun props & unlimited custom photo prints for your guests to take home. This photo booth will take any event to the next level.</div>
     <div className="about-yt">
       <iframe title="about-yt"

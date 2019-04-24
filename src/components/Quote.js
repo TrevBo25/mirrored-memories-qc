@@ -45,13 +45,14 @@ export default class Quote extends Component {
       this.setState({nope: false}, this.sendEmail(emailData))
     } else {
       this.setState({nope: true});
+      setTimeout(() => this.setState({nope: false}), 2000);
     }
   }
 
   render() {
     return (
       <div className="quote-comp">
-        <h1 className="quote-title">Request a Quote.</h1>
+        <h1 className="quote-title">request a quote.</h1>
         <div className="quote-form-outter">
           <div className="quote-form-inner">
             <div className="left-inputs">

@@ -38,13 +38,14 @@ export default class Contact extends Component {
       this.setState({nope: false}, this.sendEmail(messageData))
     } else {
       this.setState({nope: true});
+      setTimeout(() => this.setState({nope: false}), 2000);
     }
   }
 
   render() {
     return (
       <div className="contact-comp">
-        <div className="contact-title">Contact Us.</div>
+        <div className="contact-title">contact us.</div>
         <div className="contact-holders">
           <div className="contact-left">
             <input className="inputs" type="text" name="name" placeholder="Name" value={this.state.name} onChange={(e) => {this.setState({name: e.target.value})}}/>

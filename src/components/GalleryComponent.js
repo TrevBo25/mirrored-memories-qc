@@ -3,7 +3,7 @@ import Gallery from "react-photo-gallery";
 
 const GalleryComponent = () => (
   <div className="gallery-comp">
-    <h1 className="gallery-title">Gallery.</h1>
+    <h1 className="gallery-title">gallery.</h1>
     <div className="gallery-holder">
       <Gallery photos={images} direction={"column"} />
     </div>
