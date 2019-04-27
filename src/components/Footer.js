@@ -11,7 +11,7 @@ const Footer = ({color, update}) => color === 'white' ? (
   </div>
 ) : (
   <div className={`footer-black`}>
-    <h1 className='nav-header'>mirrored memories.</h1>
+    <Link to='/'><h1 className='nav-header'>mirrored memories.</h1></Link>
     <div className='footer-media'>
       <a href="https://www.instagram.com/mirroredmemoriesphotoboothqc/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
       <a href="https://www.facebook.com/mirroredmemoriesqc" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>

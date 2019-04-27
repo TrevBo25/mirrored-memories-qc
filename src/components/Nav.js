@@ -2,12 +2,12 @@ import React from 'react'
 import logo from '../styles/assets/whiteNoBack.png'
 import {Link} from 'react-router-dom'
 
-const Nav = ({color, update}) => color === 'white' ? (
-  <div className={`nav-white`} >
+const Nav = ({color, update, open, handleOpen}) => color === 'white' ? (
+  <div className='nav-white' >
     <h1 className='nav-header'>mirrored memories.</h1>
   </div>
 ) : (
-  <div className={`nav-black`} >
+  <div className='nav-black' >
     <Link to='/' onClick={() => update('white')}>
       <div className='nav-logo'>
         <img src={logo} alt='' />

@@ -17,7 +17,7 @@ export default class Quote extends Component {
       type: '',
       location: '',
       hear: '',
-      add: 'Additional information:',
+      add: '',
       nope: false
     }
 
@@ -83,7 +83,7 @@ export default class Quote extends Component {
                 <option value="Past Event">Past Event</option>
                 <option value="Other">Other</option>
               </select>
-              <textarea className="inputs textarea" value={this.state.add} placeholder="Anything else you want us to know?" onChange={(e) => {this.setState({add: e.target.value})}} rows="6" cols=""/>
+              <textarea className="inputs textarea" placeholder="Desired Package and additional information:" value={this.state.add} onChange={(e) => {this.setState({add: e.target.value})}} rows="6" cols=""/>
             </div>
           </div>
           <div className={`quote-form-submit ${this.state.nope ? 'nope' : ''}`} onClick={() => {this.handleSubmit()}} ><span class="button-text">{this.state.nope ? 'Please fill out all fields.' : 'Submit'}</span></div>
