@@ -34,7 +34,7 @@ export default class Quote extends Component {
       pauseOnHover: false,
       draggable: true
       });
-    emailjs.send("gmail", "MirroredMemoriesQuote", emailData, 'user_K799lAF6KQMFkMDT4p2MT')
+    emailjs.send("websitegmail", "MirroredMemoriesQuote", emailData, 'user_K799lAF6KQMFkMDT4p2MT')
     this.setState({name: '', email: '', phone: '', type: '', location: '', hear: '', add: 'Additional information:'})
   }
 

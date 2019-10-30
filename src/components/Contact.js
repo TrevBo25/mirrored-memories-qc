@@ -27,7 +27,7 @@ export default class Contact extends Component {
       pauseOnHover: false,
       draggable: true
     });
-    emailjs.send("gmail",  "MirroredMemoriesContact", messageData, 'user_K799lAF6KQMFkMDT4p2MT')
+    emailjs.send("websitegmail",  "MirroredMemoriesContact", messageData, 'user_K799lAF6KQMFkMDT4p2MT')
     this.setState({name: '', email: '', message: ''});
   }
 
