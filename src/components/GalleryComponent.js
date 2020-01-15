@@ -80,7 +80,28 @@ const images = [
     src: "https://s3.us-east-2.amazonaws.com/mirroredmemories/Gallery+14.jpg",
     width: 4,
     height: 3,
+  },
+  {
+    src: "https://mirroredmemories.s3.us-east-2.amazonaws.com/new_photo_1.jpg",
+    width: 4,
+    height: 5,
+  },
+  {
+    src: "https://mirroredmemories.s3.us-east-2.amazonaws.com/new_photo_2.jpg",
+    width: 4,
+    height: 5,
+  },
+  {
+    src: "https://mirroredmemories.s3.us-east-2.amazonaws.com/new_photo_3.jpg",
+    width: 3,
+    height: 2,
+  },
+  {
+    src: "https://mirroredmemories.s3.us-east-2.amazonaws.com/new_photo_4.jpg",
+    width: 4,
+    height: 5,
   }
 ];
 
 export default GalleryComponent;
+
